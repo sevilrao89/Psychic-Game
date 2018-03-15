@@ -1,0 +1,67 @@
+	html{
+		box-sizing:border-box;
+		margin: 0;
+		padding: 0;
+
+	}
+	
+	 *, *:before,*:after { box-sizing: inherit; margin: 0; padding: 0; 
+	}
+	
+	header,footer,h1,h2,h3,h4,div,p,aside,section,main,ol,ul,li{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-size: 100%;
+		border: 0;
+
+	}
+
+	header h1{
+		font-size: 24px;
+		font-weight: bold;
+		padding: 0 0 0 1em;
+		margin: 1em 0 1em 0;
+		color: #e44;
+		
+	}
+
+	body{
+		border: solid 2px ;
+	}
+
+	div.row{
+		padding: 1em 0;
+	}
+	
+	main{
+		padding: 1.5em;
+		
+	}
+
+	main h3{
+		font-size: 110%;
+		padding: 0 0 .5em 0;
+		color: #2a4;
+	}
+
+	
+
+	#g{
+		font-weight: bold;
+		font-size: 110%;
+		color: #24c;
+	}
+
+	#guesses{
+        color: #e11;
+        font-weight: bold;
+        font-size: 1.25em;
+		text-decoration: line-through;
+	}
+
+    #guess-chars { display: inline-block; list-style-type: none }
+    #guess-chars li { cursor:pointer; display: inline; font-weight: bold }
+    #guess-chars li.chosen { cursor: default; opacity: .4 }
+
+

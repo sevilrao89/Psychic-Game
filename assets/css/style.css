@@ -53,6 +53,18 @@
 		color: #24c;
 	}
 
+	#w{
+		font-weight: bold;
+	}
+
+	#l{
+		font-weight: bold;
+	}
+
+	#r{
+		font-weight: bold;
+	}
+
 	#guesses{
         color: #e11;
         font-weight: bold;
